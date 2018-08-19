@@ -1,7 +1,18 @@
 # Getting Started With Schematics
 
-Schematic implementation for Rush Hour Media.
+Schematics for Rush Hour Media's Angular front-end apps.
 
+Available blueprints:
+- data adaptor
+- data provider (+ optional data adaptor)
+- site section
+- site sub-section
+
+Next on the to-do list:
+- site section + several sub-sections (simultaneous and all linked and ready)
+- basic app (with authentication and api services ready for use)
+- custom shared component (button, tag label, card...)
+- instructions on how to 
 
 ## Getting started quickly
 
