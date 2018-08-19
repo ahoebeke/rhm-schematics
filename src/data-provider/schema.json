@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "MyFullSchematicsSchema",
+  "title": "My Full Schematics Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string",
+      "format": "path",
+      "description": "The path to create the service.",
+      "visible": false
+    },
+    "add-data-adaptor": {
+      "type": "boolean",
+      "default": false,
+      "description": "Use '--add-data-adaptor true' if you wish to generate the matching Data Adaptor for the Data Provider."
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
