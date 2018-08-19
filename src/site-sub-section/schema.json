@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "SiteSubSectionSchema",
+  "title": "RHM Site sub-section Schema",
+  "type": "object",
+  "properties": {
+    "subsectionname": {
+      "type": "string"
+    },
+    "sectionname": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string",
+      "format": "path",
+      "description": "The path to create the service.",
+      "visible": false
+    }
+  },
+  "required": [
+    "subsectionname",
+    "sectionname"
+  ]
+}

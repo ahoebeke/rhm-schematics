@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "MyFullSchematicsSchema",
+  "title": "My Full Schematics Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string",
+      "format": "path",
+      "description": "The path to create the service.",
+      "visible": false
+    },
+    "sub-sections": {
+      "type": "boolean",
+      "default": false,
+      "description": "Use '--sub-sections=section1,section2' if you wish to generate the sub sections for this site section."
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
