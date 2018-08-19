@@ -29,6 +29,7 @@ function siteSubSection(options) {
             ])),
             () => {
                 context.logger.info('To do manually: add a route for this sub-section to the ' + core_1.strings.dasherize(options.sectionname) + '-routing.module.ts file.');
+                context.logger.info('To do manually: add the sub-section component to the ' + core_1.strings.dasherize(options.sectionname) + '-routing.module.ts file, in the `declarations:{}` and `exports:{}` sections.');
             }
         ]);
     };

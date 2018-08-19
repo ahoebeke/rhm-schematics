@@ -51,6 +51,7 @@ export function siteSubSection(options: Schema): Rule {
       ),
       () => {
         context.logger.info('To do manually: add a route for this sub-section to the ' + strings.dasherize(options.sectionname) + '-routing.module.ts file.');
+        context.logger.info('To do manually: add the sub-section component to the ' + strings.dasherize(options.sectionname) + '-routing.module.ts file, in the `declarations:{}` and `exports:{}` sections.');
       }
     ]);
   };

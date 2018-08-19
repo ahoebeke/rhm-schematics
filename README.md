@@ -5,9 +5,13 @@ Schematic implementation for Rush Hour Media.
 
 ## Getting started quickly
 
+### Creating an empty project for testing
+
 Install the angular client: `npm install @angular/cli` (you might want to install it globally).
 
 Create a new empty project: `ng new MyNewApp && cd MyNewApp`
+
+### Adding a Data Provider and a Data Adaptor
 
 Install the necessary package: `npm install rhm-schematics`
 
@@ -23,6 +27,22 @@ Add the following to your angular.json file:
   }
 }
 ```
+
+### Adding a Site Section
+
+Install the necessary package: 
+`npm install rhm-schematics`
+
+Then add the site section:
+`ng generate --collection=rhm-schematics site-section --name=MyTest` 
+
+Then add one or more sub section to the previous new site section:
+`ng generate --collection=rhm-schematics site-sub-section --sectionname=MyTest --subsectionname=MyTestDetails`
+
+Then, for each sub section:
+
+1. Manually add the Subsection component to the Site section's .module.ts file, in the `declarations:{}` and `exports:{}` sections.
+2. Manually add the routes for each Subsection to the site section's routes ...-routing.module.ts file.
 
 
 ## Data Provider
