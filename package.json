@@ -11,7 +11,11 @@
     "rush hour media",
     "rhm"
   ],
-  "author": "",
+  "author": "Andy Hoebeke",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahoebeke/rhm-schematics.git"
+  },
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
