@@ -1,6 +1,6 @@
 {
   "name": "rhm-schematics",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "NG Generate schematics for Rush Hour Media projects",
   "scripts": {
     "build": "tsc -p tsconfig.json",
