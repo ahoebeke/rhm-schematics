@@ -16,7 +16,7 @@ import {strings} from '@angular-devkit/core';
 import {Schema} from "./schema";
 
 
-export function dataProvider(options: Schema): Rule {
+export function siteSection(options: Schema): Rule {
 
   return (_tree: Tree, context: SchematicContext) => {
 

@@ -23,6 +23,16 @@
       "description": "A Data Provider that gives access to data of a certain type using a simplified Front-end object model. It uses a Data Adaptor to convert between the Front-end model and a Backend object model.",
       "factory": "./data-provider/index#dataProvider",
       "schema": "./data-provider/schema.json"
+    },
+    "site-section": {
+      "description": "Adds a site section, with module, component, and empty but ready-to-use landing page component.",
+      "factory": "./site-section/index#siteSection",
+      "schema": "./site-section/schema.json"
+    },
+    "site-sub-section": {
+      "description": "Adds a sub-section to a site section.",
+      "factory": "./site-sub-section/index#siteSubSection",
+      "schema": "./site-sub-section/schema.json"
     }
   }
 }

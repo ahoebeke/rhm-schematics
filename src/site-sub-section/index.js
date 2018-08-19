@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const schematics_1 = require("@angular-devkit/schematics");
 const parse_name_1 = require("@schematics/angular/utility/parse-name");
 const core_1 = require("@angular-devkit/core");
-function dataProvider(options) {
+function siteSubSection(options) {
     return (_tree, context) => {
         // Show the options for this Schematics.
         context.logger.info('Site Sub-Section options: ' + JSON.stringify(options, null, 2));
@@ -33,5 +33,5 @@ function dataProvider(options) {
         ]);
     };
 }
-exports.dataProvider = dataProvider;
+exports.siteSubSection = siteSubSection;
 //# sourceMappingURL=index.js.map
