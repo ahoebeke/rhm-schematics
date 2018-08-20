@@ -108,3 +108,17 @@ Check the documentation with
 schematics --help
 ```
 
+## To-do list
+
+### Data providers
+
+- When generating a data provider, receive a comma-separated list of data types for which to generate data adaptors. 
+- For each data adaptor type, create a get<plural>() method in the data provider.
+
+### Data adaptors
+
+- When creating, add possibility to specify the GET endpoint to be used. Insert that endpoint into the data adaptor itself, easy to cut-n-paste into the right location.
+
+
+
+  
